@@ -1,0 +1,55 @@
+/*------------------------- INDEX STYLE ----------------------- */
+body{
+    background-image: url("marval3.jpg");
+    background-size: cover;
+    /* color: white; */
+}
+
+#movie {
+    margin-top: 16px;
+}
+
+#fatchBtn{
+    margin-top: 20px;
+}
+
+#result1{
+    width:39vw; 
+    margin:auto;
+}
+
+#result1 a{
+    margin-left:10vw;
+}
+
+#result1 img{
+    border-radius: 20px;
+    box-shadow: white 0px 10px 20px;
+}
+
+#result1 h1{
+    text-align: center;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+/*------------------------- MOVIE_DETAIL STYLE ----------------------- */
+
+#result2  {
+    color: white;
+}
+
+#mainDiv{
+    width: 70vw;
+}
+
+#mainDiv #btn {
+    margin: 3% 0 3% 43%;
+}
+
+#result2 img {
+    width: 15vw ; 
+    height:20vw;
+}

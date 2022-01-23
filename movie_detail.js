@@ -11,7 +11,7 @@ var poster;
 
 // creating the xhr object and sending the requesting to the api
 const xhr = new XMLHttpRequest();
-xhr.open("GET" , "http://www.omdbapi.com/?i=" + movieId + "&apikey=eb9227bb");
+xhr.open("GET" , "https://www.omdbapi.com/?i=" + movieId + "&apikey=eb9227bb");
 
 xhr.onload = function(){
 

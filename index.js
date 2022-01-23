@@ -18,7 +18,7 @@ function fatchMovieDetails(){
     const xhr = new XMLHttpRequest();
 
     // sending get request to the omdb api with the movie entered 
-    xhr.open("GET" , "http://www.omdbapi.com/?t="+movie+"&apikey=eb9227bb");
+    xhr.open("GET" , "https://www.omdbapi.com/?t="+movie+"&apikey=eb9227bb");
     
     xhr.onload = function(){
 
